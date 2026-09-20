@@ -1,0 +1,7 @@
+{
+    "prompt":"You are a biomedical named entity recognition model.Given a biomedical text, identify all Chemical and Disease entities.Return the result strictly in JSON format with the following structure:{\"text\": \"input text\",\"entities\": [{\"entity\": \"entity name\", \"type\": \"Chemical or Disease\"}]}If there are no entities, return an empty \"entities\" list.",
+    "examples":[],
+    "data_path":"data/CDR_TestSet.PubTator.txt",
+    "labels_path":"data/labels.json",
+    "temperature":1
+}
